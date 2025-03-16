@@ -58,9 +58,9 @@ CSV files named `matchups-YYYY.csv` with columns:
 ---
 
 ## Usage
-1. Install the required libraries using the following command: `pip install numpy pandas scikit-learn xgboost`
+1. Install the required libraries using the following command: `pip install numpy pandas scikit-learn xgboost matplotlib`
 2. Ensure CSV files are in the data directory.  
-3. Run the script: Results are printed to terminal and multiple csv files are created in data directory depending on mode chosen.  Visualizations are created for the training/testing pairs mode.
+3. Run the script: Results are printed to terminal and multiple csv files are created in data directory depending on mode chosen.  Visualizations are created in the visualization_charts directory for the training/testing pairs mode.
 
 Note: The bulk of this readme file was generated with prompts provided by Jason Stuckless using DeepSeek.
    ```bash
