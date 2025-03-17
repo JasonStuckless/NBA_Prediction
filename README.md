@@ -87,12 +87,12 @@ CSV files named `matchups-YYYY.csv` with columns:
 4. Select one of the execution modes:
    - **Test Data Mode**: Uses `NBA_test.csv` for evaluation.
    - **Year Pair Mode**: Trains and tests across historical year matchups.
-5. Results are printed to the terminal and saved to `data/results.csv`.  
+5. Results are printed to the terminal and saved in CSV format in the data directory. 
 6. Visualizations are saved in `visualization_charts/` for analysis.
 
 ---
 
-### Notes
-- The README has been updated to reflect new features and model improvements.
+### Final Notes
 - The script will automatically detect GPU availability and adjust training settings.
 - If test data labels are missing, warnings will be displayed.
+- This README was automatically generated through the use of LLMs.
