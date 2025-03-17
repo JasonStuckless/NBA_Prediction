@@ -46,7 +46,7 @@ Both modes utilize **player win rates**, **pairwise synergy scores**, and an **X
    - Handles unseen players in test data with default or estimated values.  
    
 4. **Model Training**:  
-   - Uses `XGBClassifier` with GPU acceleration (if available) to predict `home_4`.  
+   - Uses `XGBClassifier` with GPU acceleration (if available) to predict the missing player.  
    - Implements optimized hyperparameters for improved performance.
    
 5. **Evaluation & Visualization**:  
